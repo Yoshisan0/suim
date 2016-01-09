@@ -6,8 +6,10 @@ suim言語は小さいプログラミング言語です。<br />
 3. suim.c suim.h のみで全てが記述されています。<br />
 <br />
 yoshihara_t@asterios.biz<br />
-吉原　隆
-##test.suim (suim言語)
+吉原　隆<br />
+<br />
+##suim言語を実行するまでの流れ
+###test.suim (suim言語)
 
     GinInt = 0
     GclStr = "hoge"
@@ -27,7 +29,7 @@ yoshihara_t@asterios.biz<br />
 
 ↓↓↓
 
-##IL C# converter (中間言語コンバーター)
+###IL C# converter (中間言語コンバーター)
 
     string clBuffer = File.ReadAllText("test.suim");
     string clRefBuffer = "";
@@ -38,10 +40,10 @@ yoshihara_t@asterios.biz<br />
 
 ↓↓↓
 
-##suimの中間言語
+###suimの中間言語
 
     --01\ns|aa:hoge\nf|a:6\n--\n1:ab=0\n2:ac=aa\n5:f:a\n6:ad=0\n7:i:(ab 0 == ac aa == ||)e11\n8:ad=1\n9:g:12\n11:ad=0\n14:o:ad\n14:r:\n15:e:\n--
 
 ↓↓↓
 
-##suim.c や suim.dll で実行させて結果を得る
+###suim.c や suim.dll で実行させて結果を得る
