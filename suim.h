@@ -1,3 +1,9 @@
+//----------------------------------------------------------------
+// Copyright (c) 2015 Takashi Yoshihara
+// Released under the MIT license
+// https://github.com/Yoshisan0/suim/blob/master/MIT-LICENSE.txt
+//----------------------------------------------------------------
+
 #if defined(WINDOWS)
   #define SUIMLIB_API __declspec(dllexport)
   #define SUIMLIB_CALL __stdcall
