@@ -1,2 +1,0 @@
-# suim
-tiny programming language.
