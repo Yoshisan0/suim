@@ -12,23 +12,21 @@ yoshihara_t@asterios.biz
 test.suim (suim言語)
 --------------------------------
 
-    `
     GinInt = 0
-GclStr = "hoge"
+    GclStr = "hoge"
 
-//a関数
-function start a
-	inResult = 0
-	if(GinInt== 0 || GclStr== "hoge")else ou85uzz7
-		inResult = 1
-		goto ui20c1zi
-@ou85uzz7
-		inResult = 0
-
-@ui20c1zi
-	return (inResult)
-function end
-`
+    //a関数
+    function start a
+        inResult = 0
+        if(GinInt== 0 || GclStr== "hoge")else ou85uzz7
+            inResult = 1
+            goto ui20c1zi
+    @ou85uzz7
+            inResult = 0
+    
+    @ui20c1zi
+        return (inResult)
+    function end
 
 --------------------------------
 
