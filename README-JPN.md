@@ -1,8 +1,8 @@
 # suim言語
 suim言語は小さいプログラミング言語です。<br />
 <br />
-1. goto文は良いものです。<br />
-2. 高速を求め続けます。<br />
+1. goto文を推奨しています。<br />
+2. 高速に動きます。<br />
 3. suim.c suim.h のみで全てが記述されています。<br />
 <br />
 yoshihara_t@asterios.biz<br />
