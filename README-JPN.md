@@ -46,4 +46,4 @@ yoshihara_t@asterios.biz<br />
 
 ↓↓↓
 
-###suim.c や suim.dll で実行させて結果を得る
+###suim.c や suim.dll で実行する
