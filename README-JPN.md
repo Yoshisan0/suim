@@ -1,25 +1,22 @@
-# suim
-tiny programming language.
+# suimè¨€èª
+suimè¨€èªã¯å°ã•ã„ãƒ—ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°è¨€èªã§ã™ã€‚
 
-
-
-suimŒ¾Œê‚Í¬‚³‚¢ƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œê‚Å‚·B
-
-1.goto•¶‚Í—Ç‚¢‚à‚Ì‚¾B
-2.‚‘¬‚ğ‹‚ß‘±‚¯‚éB
-3.suim.c suim.h ‚Ì‚İ‚Å‘S‚Ä‚ª‹Lq‚³‚ê‚Ä‚¢‚éB
+1.gotoæ–‡ã¯è‰¯ã„ã‚‚ã®ã ã€‚
+2.é«˜é€Ÿã‚’æ±‚ã‚ç¶šã‘ã‚‹ã€‚
+3.suim.c suim.h ã®ã¿ã§å…¨ã¦ãŒè¨˜è¿°ã•ã‚Œã¦ã„ã‚‹ã€‚
 
 yoshihara_t@asterios.biz
-‹gŒ´@—²
+å‰åŸã€€éš†
 
 ----------------------------------------------------------------
-test.suim (suimŒ¾Œê)
+test.suim (suimè¨€èª)
 --------------------------------
 
+`
 GinInt = 0
 GclStr = "hoge"
 
-//aŠÖ”
+//aé–¢æ•°
 function start a
 	inResult = 0
 	if(GinInt== 0 || GclStr== "hoge")else ou85uzz7
@@ -31,14 +28,15 @@ function start a
 @ui20c1zi
 	return (inResult)
 function end
+`
 
 --------------------------------
 
-«««
+â†“â†“â†“
 
 --------------------------------
 
-IL C# converter (’†ŠÔŒ¾ŒêƒRƒ“ƒo[ƒ^[)
+IL C# converter (ä¸­é–“è¨€èªã‚³ãƒ³ãƒãƒ¼ã‚¿ãƒ¼)
 
 string clBuffer = File.ReadAllText("test.suim");
 string clRefBuffer = "";
@@ -49,11 +47,11 @@ ClsSuim.Convert("test", clBuffer, ref clRefBuffer, ref inRefVarCount, ref inRefO
 
 --------------------------------
 
-«««
+â†“â†“â†“
 
 --------------------------------
 
-suim‚Ì’†ŠÔŒ¾Œê
+suimã®ä¸­é–“è¨€èª
 
 --01\ns|aa:hoge\nf|a:6\n--\n1:ab=0\n2:ac=aa\n5:f:a\n6:ad=0\n7:i:(ab 0 == ac aa == ||)e11\n8:ad=1\n9:g:12\n11:ad=0\n14:o:ad\n14:r:\n15:e:\n--
 
