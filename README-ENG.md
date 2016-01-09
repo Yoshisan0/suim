@@ -36,7 +36,7 @@ vvv
     int inRefVarCount = 0;
     int inRefOutCount = 0;
     Hashtable clRefTblValue = new Hashtable();
-    ClsSuim.Convert("test", clBuffer, ref clRefBuffer, ref inRefVarCount, ref     inRefOutCount, ref clRefTblValue);
+    ClsSuim.Convert("test", clBuffer, ref clRefBuffer, ref inRefVarCount, ref inRefOutCount, ref clRefTblValue);
 
 vvv
 
