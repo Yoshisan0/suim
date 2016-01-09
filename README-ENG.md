@@ -27,7 +27,8 @@ Takashi Yoshihara<br />
         return (inResult)
     function end
 
-↓↓↓
+|||
+vvv
 
 ###IL C# converter (suim Intermediate language converter)
 
@@ -38,12 +39,14 @@ Takashi Yoshihara<br />
     Hashtable clRefTblValue = new Hashtable();
     ClsSuim.Convert("test", clBuffer, ref clRefBuffer, ref inRefVarCount, ref     inRefOutCount, ref clRefTblValue);
 
-↓↓↓
+|||
+vvv
 
 ###suim IL
 
     --01\ns|aa:hoge\nf|a:6\n--\n1:ab=0\n2:ac=aa\n5:f:a\n6:ad=0\n7:i:(ab 0 == ac aa == ||)e11\n8:ad=1\n9:g:12\n11:ad=0\n14:o:ad\n14:r:\n15:e:\n--
 
-↓↓↓
+|||
+vvv
 
 ###execute on suim.c and suim.dll.
