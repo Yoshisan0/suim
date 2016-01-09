@@ -12,8 +12,8 @@ yoshihara_t@asterios.biz
 test.suim (suim言語)
 --------------------------------
 
-`
-GinInt = 0
+    `
+    GinInt = 0
 GclStr = "hoge"
 
 //a関数
