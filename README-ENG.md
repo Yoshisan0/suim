@@ -1,5 +1,5 @@
 # suim language
-suim is tiny programming language.<br />
+suim is very tiny programming language.<br />
 <br />
 1. goto command is a good thing.<br />
 2. It aims at high speed.<br />
