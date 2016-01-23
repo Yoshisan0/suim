@@ -6,7 +6,6 @@ suim is very tiny programming language.<br />
 3. this is written by just 2 files. (suim.h and suim.c)<br />
 <br />
 support@asterios.biz<br />
-Takashi Yoshihara<br />
 <br />
 ##How to use
 ###test.suim (suim language)
