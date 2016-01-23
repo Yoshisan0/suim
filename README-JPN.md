@@ -5,7 +5,7 @@ suim言語は非常に軽量なプログラミング言語です。<br />
 2. 高速に動きます。<br />
 3. suim.c suim.h のみで全てが記述されています。<br />
 <br />
-yoshihara_t@asterios.biz<br />
+support@asterios.biz<br />
 吉原　隆<br />
 <br />
 ##suim言語を実行するまでの流れ
