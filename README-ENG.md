@@ -5,7 +5,7 @@ suim is very tiny programming language.<br />
 2. It aims at high speed.<br />
 3. this is written by just 2 files. (suim.h and suim.c)<br />
 <br />
-yoshihara_t@asterios.biz<br />
+support@asterios.biz<br />
 Takashi Yoshihara<br />
 <br />
 ##How to use
